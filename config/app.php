@@ -14,6 +14,15 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'phone_1' => '+234 906 282 2260',
+    'phone_2' => '+234 812 262 7008',
+    'email' => 'info@nardus.ng',
+    'location_1' => 'Osborne Foreshore, Ikoyi, Lagos, Nigeria',
+    'location_2' => '18 Udi street, Wema Terrace',
+    'address' => '18 Udi street, Wema Terrace, Osborne Foreshore, Ikoyi, Lagos, Nigeria',
+    'facebook' => '#',
+    'instagram' => 'https://www.instagram.com/nardusltd/',
+    'twitter' => 'https://twitter.com/nardusltd',
 
     /*
     |--------------------------------------------------------------------------
