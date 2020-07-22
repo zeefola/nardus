@@ -18,6 +18,11 @@ Route::get('/', function () {
 });
 
 Route::get('/contact-us' , 'homepageController@contactUs');
+Route::get('/about-us' , 'homepageController@aboutUs');
+Route::get('/services' , 'homepageController@services');
+Route::get('/faq' , 'homepageController@faq');
+Route::get('/service-details' , 'homepageController@servicesDetails');
+
 
 Route::post('/contact-us' , 'homepageController@contactusConfirm');
 Auth::routes();

@@ -57,4 +57,20 @@ class homepageController extends Controller
         session()->flash('success_report' , 'Contact form submitted successfully!!!');
         return back();
     }
+
+    public function aboutUs(){
+        return view('about-us');
+    }
+
+    public function services(){
+        return view('services');
+    }
+
+    public function faq(){
+        return view ('faq');
+    }
+
+    public function servicesDetails(){
+        return view('services-details');
+    }
 }

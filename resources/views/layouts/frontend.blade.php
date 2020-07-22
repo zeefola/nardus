@@ -71,6 +71,7 @@
          <!-- page-title -->
          @yield('breadcrumb')
         <!-- page-title end-->
+        
         <!--site-main start-->
         <div class="site-main">
         @yield('main_content')
