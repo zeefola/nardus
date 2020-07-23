@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Nardus'),
     'phone_1' => '+234 906 282 2260',
     'phone_2' => '+234 812 262 7008',
     'email' => 'info@nardus.ng',

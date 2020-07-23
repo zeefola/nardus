@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('title')
+   {{ config('app.name') }} | Contact Us
+@endsection
+
 @section('breadcrumb')
   @includeIf('layouts.breadcrumb' , [ 'title' => 'Contact Us' , 'subtitle' => 'Contact'])
 @endsection

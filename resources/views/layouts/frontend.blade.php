@@ -7,47 +7,52 @@
 <meta name="description" content="Agrotek – Agriculture HTML Template" />
 <meta name="author" content="https://www.themetechmount.com/" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Agrotek – Agriculture HTML Template</title>
+<title> @yield('title') </title>
 
 <!-- favicon icon -->
-<link rel="shortcut icon" href="images/favicon.png" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
 
 <!-- bootstrap -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
 
 <!-- animate -->
-<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+<link rel="stylesheet" type="text/css" href="/css/animate.css"/>
 
 <!-- slick-slider -->
-<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="/css/slick.css">
 
-<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
 
 <!-- fontawesome -->
-<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.css"/>
 
 <!-- themify -->
-<link rel="stylesheet" type="text/css" href="css/themify-icons.css"/>
+<link rel="stylesheet" type="text/css" href="/css/themify-icons.css"/>
 
 <!-- flaticon -->
-<link rel="stylesheet" type="text/css" href="css/flaticon.css"/>
+<link rel="stylesheet" type="text/css" href="/css/flaticon.css"/>
 
 
 <!-- REVOLUTION LAYERS STYLES -->
 
-    <link rel="stylesheet" type="text/css" href="revolution/css/rs6.css">
+    <link rel="stylesheet" type="text/css" href="/revolution/css/rs6.css">
 
 <!-- prettyphoto -->
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css">
 
 <!-- shortcodes -->
-<link rel="stylesheet" type="text/css" href="css/shortcodes.css"/>
+<link rel="stylesheet" type="text/css" href="/css/shortcodes.css"/>
 
 <!-- main -->
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="/css/main.css"/>
 
 <!-- responsive -->
-<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+<link rel="stylesheet" type="text/css" href="/css/responsive.css"/>
+
+<!-- JQuery for D.O.B -->
+<!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+
+
 
 </head>
 
@@ -57,7 +62,7 @@
     <div class="page">
 
         <!-- preloader start -->
-       @include('layouts.preloader')
+       <!-- @include('layouts.preloader') -->
         <!-- preloader end -->
 
         <!--header start-->
@@ -91,24 +96,38 @@
 
         <!-- Javascript -->
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/tether.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.easing.js"></script>    
-        <script src="js/jquery-waypoints.js"></script>    
-        <script src="js/jquery-validate.js"></script> 
-        <script src="js/slick.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/jquery.prettyPhoto.js"></script>
-        <script src="js/numinate.min.js?ver=4.9.3"></script>
-        <script src="js/main.js"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/tether.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/jquery.easing.js"></script>    
+        <script src="/js/jquery-waypoints.js"></script>    
+        <script src="/js/jquery-validate.js"></script> 
+        <script src="/js/slick.js"></script>
+        <script src="/js/slick.min.js"></script>
+        <script src="/js/jquery.prettyPhoto.js"></script>
+        <script src="/js/numinate.min.js?ver=4.9.3"></script>
+        <script src="/js/main.js"></script>
 
         <!-- Revolution Slider -->
-        <script src="revolution/js/revolution.tools.min.js"></script>
-        <script src="revolution/js/rs6.min.js"></script>
-        <script src="revolution/js/slider.js"></script>
+        <script src="/revolution/js/revolution.tools.min.js"></script>
+        <script src="/revolution/js/rs6.min.js"></script>
+        <script src="/revolution/js/slider.js"></script>
 
         <!-- Javascript end-->
 
+
+<!-- JQuery for D.O.B -->
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker({
+      changeMonth: true,
+      changeYear: true,
+      yearRange: "1960:2050"
+    });
+  } );
+  </script> -->
+  
 </body>
 </html>

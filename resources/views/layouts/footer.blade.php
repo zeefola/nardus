@@ -23,7 +23,7 @@
                             <div class="cta_wrapper">
                                 <div class="ttm-quicklink-box">
                                    <div class="ttm-rightlink-box">
-                                        <i class="flaticon flaticon-clock ttm-textcolor-skincolor"></i>
+                                        <i class="flaticon flaticon-support ttm-textcolor-skincolor"></i>
                                         <h5 class="custom-heading"><a href="#"> Help Center <span class="ti ti-arrow-circle-right ttm-arrow-box"></span></a></h5>
                                   </div>    
                                 </div>
@@ -55,11 +55,13 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
-                            <div class="widget widget_text clearfix">
+                            <div class="widget link-widget clearfix">
                                 <h3 class="widget-title">Featured Links</h3>
                                 <ul id="menu-footer-services">
+                                    <li><a href="/distributors-form"> Distributors </a></li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="#">Shop</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>

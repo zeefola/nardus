@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('title')
+   {{ config('app.name') }} | Page not found
+@endsection
+
 @section('main_content')
      <!--error-404 start-->
      <section class="error-404">

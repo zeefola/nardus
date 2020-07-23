@@ -22,9 +22,18 @@ Route::get('/about-us' , 'homepageController@aboutUs');
 Route::get('/services' , 'homepageController@services');
 Route::get('/faq' , 'homepageController@faq');
 Route::get('/service-details' , 'homepageController@servicesDetails');
+Route::get('/distributors-form' , 'homepageController@distributorsForm');
+
+
 
 
 Route::post('/contact-us' , 'homepageController@contactusConfirm');
+Route::post('/distributors-form' , 'homepageController@distributorsFormConfirm');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

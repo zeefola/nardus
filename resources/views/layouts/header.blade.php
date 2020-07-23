@@ -10,11 +10,11 @@
                                 <div class="col-lg-12">
                                     <div class="ttm-topbar-content">
                                         <ul class="top-contact text-left">
-                                            <li>Your Trusted 24 Hours Service Provider!</li>
+                                            <li>Pure Aroma From Nature</li>
                                         </ul>
                                         <div class="topbar-right text-right">
                                             <ul class="top-contact">
-                                                <li>Office Hour : 08:00am - 6:00pm</li>
+                                                <li>Office Hour : 08:00am - 5:00pm</li>
                                             </ul>
                                             <div class="ttm-social-links-wrapper list-inline">
                                                 <ul class="social-icons">
@@ -40,7 +40,7 @@
                                         <!-- site-branding -->
                                         <div class="site-branding mr-auto">
                                             <a class="home-link" href="/" title="Nardus" rel="home">
-                                                <img src="images/logo.png" id="logo-img" class="img-center" alt="logo">
+                                                <img src="images/logo.jpg" id="logo-img" class="img-center" alt="logo">
                                             </a>
                                         </div><!-- site-branding end -->
                                         <!-- widget-info -->
@@ -78,7 +78,7 @@
                                 <!--site-navigation -->
                                 <div id="site-navigation" class="site-navigation">
                                     <div class="ttm-custombutton">
-                                       <a href="#" class="ttm-btn ttm-btn-size-md ttm-btn-bgcolor-skincolor"> Request for quote</a>
+                                       <a href="/distributors-form" class="ttm-btn ttm-btn-size-md ttm-btn-bgcolor-skincolor"> Distributor</a>
                                     </div>
                                     <!-- header-icons -->
                                     <div class="ttm-header-icons ">

@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('title')
+   {{ config('app.name') }} | FAQ
+@endsection
+
 @section('breadcrumb')
   @includeIf('layouts.breadcrumb' , [ 'title' => 'FAQ\'s' , 'subtitle' => 'FAQ'])
 @endsection
@@ -27,68 +31,28 @@
             <div class="col-lg-6">
                 <!-- ttm_single_image-wrapper -->
                 <div class="ttm_single_image-wrapper">
-                    <img class="img-fluid" src="https://via.placeholder.com/1200X800/444444.jpg" title="single-img-eight" alt="single-img-eight">
+                    <img class="img-fluid" src="/images/question.jpg" title="single-img-eight" alt="single-img-eight">
                 </div><!-- ttm_single_image-wrapper end -->
-                <div class="ttm-play-icon-btn ttm-play-icon-btn-center">
-                    <div class="ttm-play-icon-animation">
-                        <a href="https://youtu.be/7e90gBu4pas" target="_self" class="ttm_prettyphoto">
-                            <div class="ttm-icon ttm-icon_element-bgcolor-skincolor ttm-icon_element-size-md ttm-icon_element-style-round">
-                                <i class="ti ti-control-play"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
             <div class="col-lg-6">
                 <!-- acadion -->
+                @foreach($datas as $data)
                 <div class="accordion grey-background res-991-mt-30">
                     <!-- toggle -->
                     <div class="toggle">
                         <div class="toggle-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">What does having Managed your services provider?</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> {{ $data->question }} </a>
                         </div>
                         <div class="toggle-content">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <p class="mb-0">Praesentium voluptatum deleniti atque corrupti quos as excepturi sint occaecati cupiditate non provident, similique sunt in</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- toggle end -->
-                    <!-- toggle -->
-                    <div class="toggle">
-                        <div class="toggle-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapsetwo" class="active">What you about say your Business palnning?</a></div>
-                        <div class="toggle-content">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <p class="mb-0">Praesentium voluptatum deleniti atque corrupti quos as excepturi sint occaecati cupiditate non provident, similique sunt in</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- toggle end -->
-                    <!-- toggle -->
-                    <div class="toggle">
-                        <div class="toggle-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapsethree">What types of systems do you support?</a></div>
-                        <div class="toggle-content">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <p class="mb-0">Praesentium voluptatum deleniti atque corrupti quos as excepturi sint occaecati cupiditate non provident, similique sunt in</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- toggle end -->
-                    <!-- toggle -->
-                    <div class="toggle">
-                        <div class="toggle-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapsethree">What types of systems do you support?</a></div>
-                        <div class="toggle-content">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <p class="mb-0">Praesentium voluptatum deleniti atque corrupti quos as excepturi sint occaecati cupiditate non provident, similique sunt in</p>
+                                    <p class="mb-0"> {{ $data->answer }} </p>
                                 </div>
                             </div>
                         </div>
                     </div><!-- toggle end -->
                 </div><!-- acadion  end-->
+                @endforeach
             </div>
         </div>
         <!-- row end -->

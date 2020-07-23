@@ -1,3 +1,4 @@
+<!-- START homeclassicmain REVOLUTION SLIDER 6.0.1 -->
 <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery">
             <rs-module id="rev_slider_1_1" data-version="6.1.2" class="rev_slider_1_1_height">
                 <rs-slides>
@@ -182,3 +183,4 @@
                 </rs-slides>
             </rs-module>
         </rs-module-wrap>
+        <!-- END REVOLUTION SLIDER -->

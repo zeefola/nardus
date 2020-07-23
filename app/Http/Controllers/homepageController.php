@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\contact_history;
+use App\distributors_registration;
 use Mail;
 
 use Illuminate\Http\Request;
@@ -63,14 +64,78 @@ class homepageController extends Controller
     }
 
     public function services(){
-        return view('services');
+
+        $datas = \App\Repositories\Services::getServices();
+        return view('services')->with('datas' , $datas);
     }
 
     public function faq(){
-        return view ('faq');
+        
+        $datas = \App\Repositories\Pick::getFaq();
+        return view ('faq')->with('datas' , $datas);
     }
 
     public function servicesDetails(){
         return view('services-details');
+    }
+
+    public function distributorsForm(){
+        return view('distributors-form');
+    }
+
+    public function distributorsFormConfirm(){
+        /* validate the input */
+        $this->validate( request() , array(
+          'surname' => 'required',
+          'othername' => 'required',
+          'phone' => 'required',
+          'email' => 'required|email',
+          'dob' => 'required',
+          'gender' => 'required',
+          'occupation' => 'required',
+          'home_address' => 'required',
+          'business_address' => 'required',
+        ));
+
+        // return request();
+
+        /* store the input into database */
+        $db_data = new distributors_registration();
+        $db_data->surname = request()->surname;
+        $db_data->othername = request()->othername;
+        $db_data->phone = request()->phone;
+        $db_data->email = request()->email;
+        $db_data->dob = request()->dob;
+        $db_data->gender = request()->gender;
+        $db_data->occupation = request()->occupation;
+        $db_data->home_address = request()->home_address;
+        $db_data->business_address = request()->business_address;
+
+        $db_data->save();
+
+        /* save the input in data */
+        $data = array(
+          'surname' => request()->surname,
+          'othername' => request()->othername,
+          'phone' => request()->phone,
+          'email' => request()->email,
+          'dob' => request()->dob,
+          'gender' => request()->gender,
+          'occupation' => request()->occupation,
+          'home_address' => request()->home_address,
+          'business_address' => request()->business_address,
+          'admin_email' => 'admin@nardus.ng',
+          'created_at' => $db_data->created_at,
+        );
+
+        /* send notification email to admin */
+         Mail::send('emails.distributor_notification' , $data, function($m) use($data){
+             $m->to($data['admin_email'])->subject('Distributor Form Notification');
+         });
+
+
+        /* return back */
+        session()->flash('success_report' , 'Form submitted successfully');
+        return back();
     }
 }
