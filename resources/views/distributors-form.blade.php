@@ -71,6 +71,14 @@
                             <input name="home_address" type="text" placeholder="Home Address"  class="form-control with-border bg-white">
                             </div>
                         </div>
+
+                        <div class="col-sm-12 col-md-12">
+                            <div class="form-group">
+                            {!! NoCaptcha::renderJs() !!}
+                            {!! NoCaptcha::display() !!}
+                            </div>
+                        </div>
+
                         <div class="col-md-12">
                             <div class="text-left">
                                 <button type="submit" id="submit" class="ttm-btn ttm-btn-size-md ttm-btn-bgcolor-darkgrey w-100" value="">

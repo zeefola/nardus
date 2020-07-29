@@ -23,6 +23,7 @@ class homepageController extends Controller
           'category' => 'required',
           'subject' => 'required',
           'message' => 'required',
+          'g-recaptcha-response' => 'required|captcha'
          ));
 
 
@@ -95,6 +96,7 @@ class homepageController extends Controller
           'occupation' => 'required',
           'home_address' => 'required',
           'business_address' => 'required',
+          'g-recaptcha-response' => 'required|captcha'
         ));
 
         // return request();
