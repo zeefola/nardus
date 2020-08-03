@@ -9,6 +9,10 @@ use Illuminate\Http\Request;
 
 class homepageController extends Controller
 {
+    public function home(){
+        return view('welcome');
+    }
+    
     public function contactUs(){
         return view('contact-us');
     }

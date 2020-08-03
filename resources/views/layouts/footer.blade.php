@@ -71,7 +71,7 @@
                                 <ul class="contact-widget-wrapper">
                                     <li><i class="fa fa-map-marker"></i>{{ config('app.location_2') }} <br> {{ config('app.location_1') }}</li>
                                     <li><i class="fa fa-phone"></i>{{ config('app.phone_2') }} </li>
-                                    <li><i class="fa fa-envelope-o"></i><a href="mailto:info@example.com" target="_blank">info@example.com</a></li>
+                                    <li><i class="fa fa-envelope-o"></i><a href="mailto:info@nardus.ng" target="_blank">{{ config('app.email') }}</a></li>
                                 </ul>
                                 <div class="social-icons circle social-hover">
                                     <ul class="list-inline">
