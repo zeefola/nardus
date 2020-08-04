@@ -86,6 +86,9 @@
         @includeIf('layouts.footer')
         <!--footer end-->
 
+         <!--  chat plugin  -->
+       @includeIf("layouts.tawk")
+
         <!--back-to-top start-->
         <a id="totop" href="#top">
             <i class="fa fa-angle-up"></i>
