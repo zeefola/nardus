@@ -18,4 +18,31 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+
+
+    <IfModule mod_expires.c>
+        ExpiresActive On
+
+        # Images
+        ExpiresByType image/jpeg "access plus 14 days"
+        ExpiresByType image/gif "access plus 14 days"
+        ExpiresByType image/png "access plus 14 days"
+        ExpiresByType image/webp "access plus 14 days"
+        ExpiresByType image/svg+xml "access plus 14 days"
+        ExpiresByType image/x-icon "access plus 14 days"
+
+        # Video
+        ExpiresByType video/mp4 "access plus 14 days"
+        ExpiresByType video/mpeg "access plus 14 days"
+
+        # CSS, JavaScript
+        ExpiresByType text/css "access plus 14 days"
+        ExpiresByType text/javascript "access plus 14 days"
+        ExpiresByType application/javascript "access plus 14 days"
+
+        # Others
+        ExpiresByType application/pdf "access plus 14 days"
+        ExpiresByType application/x-shockwave-flash "access plus 14 days"
+    </IfModule>
+    
 </IfModule>

@@ -80,10 +80,6 @@ class homepageController extends Controller
         return view ('faq')->with('datas' , $datas);
     }
 
-    public function servicesDetails(){
-        return view('services-details');
-    }
-
     public function distributorsForm(){
         return view('distributors-form');
     }
@@ -143,5 +139,17 @@ class homepageController extends Controller
         /* return back */
         session()->flash('success_report' , 'Form submitted successfully');
         return back();
+    }
+
+    public function essentialOil(){
+        return view('essential-oil');
+    }
+
+    public function hydrosol(){
+        return view('hydrosol');
+    }
+
+    public function handSanitizer(){
+        return view('hand-sanitizer');
     }
 }

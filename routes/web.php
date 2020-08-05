@@ -23,8 +23,10 @@ Route::get('/contact-us' , 'homepageController@contactUs');
 Route::get('/about-us' , 'homepageController@aboutUs');
 Route::get('/services' , 'homepageController@services');
 Route::get('/faq' , 'homepageController@faq');
-Route::get('/service-details' , 'homepageController@servicesDetails');
 Route::get('/distributors-form' , 'homepageController@distributorsForm');
+Route::get('/essential-oil' , 'homepageController@essentialOil');
+Route::get('/hydrosol' , 'homepageController@hydrosol');
+Route::get('/hand-sanitizer' , 'homepageController@handSanitizer');
 
 
 
