@@ -24,6 +24,8 @@
 
     <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
 
+
+
     <!-- fontawesome -->
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.css" />
 
@@ -54,7 +56,8 @@
     <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
 
 
-
+   @includeIf('layouts.analytics')
+   
 </head>
 
 <body>
