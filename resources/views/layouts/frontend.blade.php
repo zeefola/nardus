@@ -57,6 +57,8 @@
 
 
    @includeIf('layouts.analytics')
+
+   @includeIf('layouts.fb_pixel')
    
 </head>
 
