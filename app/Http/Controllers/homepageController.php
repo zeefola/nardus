@@ -49,7 +49,7 @@ class homepageController extends Controller
            'category' => request()->category,
            'subject' => request()->subject,
            'description' => request()->message,
-           'admin_mail' => 'admin@nardus.ng',
+           'admin_mail' => 'info@nardus.ng',
            'created_at' => $db_data->created_at,
           );
 
@@ -126,7 +126,7 @@ class homepageController extends Controller
           'occupation' => request()->occupation,
           'home_address' => request()->home_address,
           'business_address' => request()->business_address,
-          'admin_email' => 'admin@nardus.ng',
+          'admin_email' => 'info@nardus.ng',
           'created_at' => $db_data->created_at,
         );
 
