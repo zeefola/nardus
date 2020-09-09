@@ -18,7 +18,7 @@
                 <div class="col-lg-5">
                     <!-- ttm_single_image-wrapper -->
                     <div class="ttm_single_image-wrapper mr_95 res-991-mr-0 position-relative z-1 res-991-center">
-                        <img class="img-fluid" src="/images/essential.jpg" title="single-img-one" alt="single-img-one">
+                        <img class="img-fluid" src="/images/essential_oil.png" title="single-img-one" alt="single-img-one">
                     </div><!-- ttm_single_image-wrapper end -->
                 </div>
                 <div class="col-lg-7">
@@ -452,14 +452,14 @@
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
                         <div class="featured-thumbnail">
                             <!-- featured-thumbnail-->
-                            <img class="img-fluid" src="/images/diffuser.jpg" alt="image">
+                            <img class="img-fluid" src="/images/diffusser.png" alt="image">
                         </div><!-- featured-thumbnail END-->
                         <div class="ttm-box-view-overlay">
                             <!-- ttm-box-view-overlay -->
                             <div class="ttm-media-link">
                                 <!-- ttm-media-link-->
                                 <a class="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title=""
-                                    href="/images/diffuser.jpg" data-rel="prettyPhoto">
+                                    href="/images/diffusser.png" data-rel="prettyPhoto">
                                     <i class="ti ti-search"></i>
                                 </a>
                             </div>
@@ -483,14 +483,14 @@
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
                         <div class="featured-thumbnail">
                             <!-- featured-thumbnail-->
-                            <img class="img-fluid" src="/images/oil.jpg" alt="image">
+                            <img class="img-fluid" src="/images/essential.png" alt="image">
                         </div><!-- featured-thumbnail END-->
                         <div class="ttm-box-view-overlay">
                             <!-- ttm-box-view-overlay -->
                             <div class="ttm-media-link">
                                 <!-- ttm-media-link-->
                                 <a class="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title=""
-                                    href="/images/oil.jpg" data-rel="prettyPhoto">
+                                    href="/images/essential.png" data-rel="prettyPhoto">
                                     <i class="ti ti-search"></i>
                                 </a>
                             </div>
@@ -576,14 +576,14 @@
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
                         <div class="featured-thumbnail">
                             <!-- featured-thumbnail-->
-                            <img class="img-fluid" src="/images/sanitizer.jpg" alt="image">
+                            <img class="img-fluid" src="/images/sanitizer.png" alt="image">
                         </div><!-- featured-thumbnail END-->
                         <div class="ttm-box-view-overlay">
                             <!-- ttm-box-view-overlay -->
                             <div class="ttm-media-link">
                                 <!-- ttm-media-link-->
                                 <a class="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title=""
-                                    href="/images/sanitizer.jpg" data-rel="prettyPhoto">
+                                    href="/images/sanitizer.png" data-rel="prettyPhoto">
                                     <i class="ti ti-search"></i>
                                 </a>
                             </div>

@@ -19,7 +19,7 @@
                     <!-- ttm-service-single-content-are -->
                     <div class="ttm-service-single-content-area">
                         <div class="ttm_single_image-wrapper mb-35">
-                            <img style="height:400px; width:100%;" src="/images/sanii.jpg" alt="single-img-nine">
+                            <img style="height:400px; width:100%;" src="/images/big_sanitizer.png" alt="single-img-nine">
                         </div>
                         <div class="ttm-service-description">
                             <h4>Hand Sanitizer</h4>

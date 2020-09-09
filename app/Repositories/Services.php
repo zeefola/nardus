@@ -21,9 +21,9 @@ class Services{
 
             //2
             (object)[
-                'featured_thumbnail' => '/images/3.jpg',
+                'featured_thumbnail' => '/images/sani.png',
                 'featured_title' => 'Hand Sanitizer',
-                'featured_description' => 'Hand sanitizer is often an alcohol-based gelatinous solution that’s effective against harmful agents which have the potential of',
+                'featured_description' => 'Hand sanitizer is often an alcohol-based gelatinous solution that’s effective against harmful agents which have the potential',
                 'go_to' => '/hand-sanitizer',    
             ],
 
