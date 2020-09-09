@@ -216,10 +216,10 @@
 .ttm-equal-height-image{ display: none; }
 
 .col-bg-img-one.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer{
-    background-image: url(https://via.placeholder.com/1023X598/444444.jpg) !important;
+    /* background-image: url(https://via.placeholder.com/1023X598/444444.jpg) !important;
     background-position: center center!important;
     background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background-size: cover !important; */
 }
 .col-bg-img-two.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer{
     background-image: url(/images/home.jpg) !important;
@@ -898,7 +898,10 @@ body{ counter-reset: section; }
 .featured-icon-box.left-icon.style1 .featured-content{padding-left: 12px;}
 .featured-icon-box.left-icon.style1 .featured-desc p{font-weight: 300;}
 
-.featured-icon-box.style1.without-icon{ position: relative;padding-left: 30px;}
+.featured-icon-box.style1.without-icon{ 
+    position: relative; 
+    /* padding-left: 30px; */
+}
 .featured-icon-box.style1.without-icon:before{
     position: absolute;
     content: '';
@@ -930,7 +933,7 @@ body{ counter-reset: section; }
 /*  style2 */
 .featured-icon-box-style2-row{padding: 30px 15px;}
 .featured-icon-box.left-icon.style2{
-    padding: 25px 15px 20px;
+    padding: 25px 14px 20px;
 }
 .featured-icon-box.left-icon.style2 .ttm-icon.ttm-icon_element-size-lg {
     height: 50px;
