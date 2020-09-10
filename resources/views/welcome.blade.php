@@ -114,19 +114,19 @@
                         </div>
                         <div class="row mt-30">
                             <div class="col-md-4 col-lg-4 col-sm-4">
-                                <div class="text-left pt-15">
+                                {{-- <div class="text-left pt-15">
                                     <img src="https://via.placeholder.com/145X60/444444.png" alt="about-sign">
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="col-md-8 col-lg-8 col-sm-8">
                                 <!--  featured-icon-box -->
                                 <div class="featured-icon-box without-icon style1 text-left pt-15">
                                     <div class="featured-content">
                                         <!--  featured-content -->
-                                        <div class="featured-desc">
+                                        {{-- <div class="featured-desc"> --}}
                                             <!--  featured-desc -->
                                             <p>Call to ask any question</p>
-                                        </div>
+                                        {{-- </div> --}}
                                         <div class="featured-title">
                                             <!--  featured-title -->
                                             <h5>{{ config('app.phone_1') }}</h5>

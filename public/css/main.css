@@ -95,6 +95,7 @@ iframe{
 }
 p { 
     margin: 0 0 15px; 
+    text-align: justify;
 }
 
 *::-moz-selection { 
@@ -1934,6 +1935,7 @@ ul.ttm-list {
     list-style: none;
     padding: 0;
     padding-left: 0;
+    text-align: justify;
 }
 .ttm-list.ttm-list-style-icon li i {
     position: absolute;
