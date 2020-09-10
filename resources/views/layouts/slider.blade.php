@@ -2,8 +2,8 @@
 <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery">
     <rs-module id="rev_slider_1_1" data-version="6.1.2" class="rev_slider_1_1_height">
         <rs-slides>
-            <rs-slide data-key="rs-1" data-title="Slide" data-thumb="https://via.placeholder.com/1920X705/888888.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:zoomout;sl:d;">
-                <img src="https://via.placeholder.com/1920X705/888888.jpg" title="sliderbg-01" width="1920" height="705" class="rev-slidebg" data-no-retina>
+            <rs-slide data-key="rs-1" data-title="Slide" data-thumb="" data-anim="ei:d;eo:d;s:d;r:0;t:zoomout;sl:d;">
+                <img src="/images/first-slider.jpg" title="sliderbg-01" width="1920" height="705" class="rev-slidebg" data-no-retina>
                 <rs-layer
                     id="slider-1-slide-1-layer-1"
                     class="head-font" 
@@ -16,9 +16,9 @@
                     data-frame_1="sp:900;"
                     data-frame_1_chars="e:Power4.easeInOut;d:10;oZ:-50;"
                     data-frame_999="o:0;st:w;sR:6600;"
-                    >FARMING PRODUCTS 
+                    >NATURAL ESSENTIAL OIL
                 </rs-layer>
-                <rs-layer
+                {{-- <rs-layer
                     id="slider-1-slide-1-layer-2"
                     class="ttm-bgcolor-skincolor" 
                     data-type="text"
@@ -32,20 +32,20 @@
                     data-frame_1_chars="e:Power4.easeInOut;d:10;oZ:-50;"
                     data-frame_999="o:0;st:w;sR:7060;"
                     >Our High-Quality 
-                </rs-layer>
+                </rs-layer> --}}
                 <rs-layer
                     id="slider-1-slide-1-layer-3" 
                     data-type="text"
                     data-color="#bababa"
                     data-rsp_ch="on"
                     data-xy="x:c;xo:0,0,0,-500px;yo:359px,359px,223px,112px;"
-                    data-text="w:normal;s:17,17,14,11;l:24,24,19,15;a:center;"
+                    data-text="w:normal;s:17,17,16,11;l:24,24,19,15;a:center;"
                     data-dim="w:565px,565px,388px,239px;"
                     data-vbility="t,t,t,f"
                     data-frame_0="y:100%;"
                     data-frame_1="e:Linear.easeNone;st:1160;sp:500;sR:1160;"
                     data-frame_999="o:0;st:w;sR:7340;"
-                    >Eco-friendly products are, the products that do not harm the environ- ment. whether in their production. 
+                    >To support health and wellbeing through alternative medicine from plant extracts. 
                 </rs-layer>
                 <a
                     id="slider-1-slide-1-layer-4" 
@@ -62,7 +62,7 @@
                     data-frame_hover="bgc:#232323;boc:#232323;bos:solid;bow:1px,1px,1px,1px;sp:300ms;"
                     >MORE ABOUT 
                 </a>
-                <rs-layer
+                {{-- <rs-layer
                     id="slider-1-slide-1-layer-5"
                     class="ttm-bgcolor-white" 
                     data-type="shape"
@@ -89,10 +89,10 @@
                     data-frame_1="e:Linear.easeNone;st:1570;sp:400;sR:1570;"
                     data-frame_999="o:0;st:w;sR:7030;"
                     > 
-                </rs-layer>
+                </rs-layer> --}}
             </rs-slide>
             <rs-slide data-key="rs-2" data-title="Slide" data-thumb="https://via.placeholder.com/1920X705/888888.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:zoomout;sl:d;">
-                <img src="https://via.placeholder.com/1920X705/888888.jpg" title="sliderbg-02" width="1920" height="705" class="rev-slidebg" data-no-retina>
+                <img src="/images/second-slider.jpg" title="sliderbg-02" width="1920" height="705" class="rev-slidebg" data-no-retina>
                 <rs-layer
                     id="slider-1-slide-2-layer-1"
                     class="head-font" 
@@ -105,9 +105,9 @@
                     data-frame_1="sp:900;"
                     data-frame_1_chars="e:Power4.easeInOut;d:10;oZ:-50;"
                     data-frame_999="o:0;st:w;sR:6600;"
-                    >SOLAR AGRICULTURE 
+                    >ESSENTIAL OILS
                 </rs-layer>
-                <rs-layer
+                {{-- <rs-layer
                     id="slider-1-slide-2-layer-2"
                     class="ttm-bgcolor-skincolor" 
                     data-type="text"
@@ -121,20 +121,20 @@
                     data-frame_1_chars="e:Power4.easeInOut;d:10;oZ:-50;"
                     data-frame_999="o:0;st:w;sR:7060;"
                     >World Program For 
-                </rs-layer>
+                </rs-layer> --}}
                 <rs-layer
                     id="slider-1-slide-2-layer-3" 
                     data-type="text"
                     data-color="#bababa"
                     data-rsp_ch="on"
                     data-xy="x:c;xo:0,0,0,-500px;yo:359px,359px,223px,112px;"
-                    data-text="w:normal;s:17,17,14,11;l:24,24,19,15;a:center;"
+                    data-text="w:normal;s:17,17,16,11;l:24,24,19,15;a:center;"
                     data-dim="w:565px,565px,388px,239px;"
                     data-vbility="t,t,t,f"
                     data-frame_0="y:100%;"
                     data-frame_1="e:Linear.easeNone;st:1160;sp:500;sR:1160;"
                     data-frame_999="o:0;st:w;sR:7340;"
-                    >Eco-friendly products are, the products that do not harm the environ- ment. whether in their production. 
+                    >100% Natural, Best Curated for you.
                 </rs-layer>
                 <a
                     id="slider-1-slide-2-layer-4" 
@@ -149,9 +149,9 @@
                     data-frame_1="e:Linear.easeNone;st:1310;sp:500;sR:1310;"
                     data-frame_999="o:0;st:w;sR:7190;"
                     data-frame_hover="bgc:#232323;boc:#232323;bos:solid;bow:1px,1px,1px,1px;sp:300ms;"
-                    >REQUEST A QUOTE 
+                    >REQUEST NOW 
                 </a>
-                <rs-layer
+                {{-- <rs-layer
                     id="slider-1-slide-2-layer-5"
                     class="ttm-bgcolor-white" 
                     data-type="shape"
@@ -164,8 +164,8 @@
                     data-frame_1="e:Linear.easeNone;st:1030;sp:400;sR:1030;"
                     data-frame_999="o:0;st:w;sR:7570;"
                     > 
-                </rs-layer>
-                <rs-layer
+                </rs-layer> --}}
+                {{-- <rs-layer
                     id="slider-1-slide-2-layer-6"
                     class="ttm-bgcolor-white" 
                     data-type="shape"
@@ -178,7 +178,7 @@
                     data-frame_1="e:Linear.easeNone;st:1570;sp:400;sR:1570;"
                     data-frame_999="o:0;st:w;sR:7030;"
                     > 
-                </rs-layer>
+                </rs-layer> --}}
             </rs-slide>
         </rs-slides>
     </rs-module>

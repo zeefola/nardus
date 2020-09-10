@@ -80,7 +80,7 @@
                     <div class="layer-content"></div>
                 </div>
                 <!-- col-img-img-two responsive-img-->
-                <img src="/images/home.jpg" class="ttm-equal-height-image" alt="bg-image">
+                {{-- <img src="/images/home.jpg" class="ttm-equal-height-image" alt="bg-image"> --}}
             </div>
         </div><!-- row -->
     </div>
