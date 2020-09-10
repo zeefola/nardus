@@ -1,6 +1,6 @@
 <!-- START homeclassicmain REVOLUTION SLIDER 6.0.1 -->
 <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery">
-    <rs-module id="rev_slider_1_1" data-version="6.1.2" class="rev_slider_1_1_height">
+    <rs-module id="rev_slider_1_1" data-version="6.1.2" class="rev_slider_1_1_height" style="height: ">
         <rs-slides>
             <rs-slide data-key="rs-1" data-title="Slide" data-thumb="" data-anim="ei:d;eo:d;s:d;r:0;t:zoomout;sl:d;">
                 <img src="/images/first-slider.jpg" title="sliderbg-01" width="1920" height="705" class="rev-slidebg" data-no-retina>

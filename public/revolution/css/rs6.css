@@ -312,7 +312,7 @@ rs-module-wrap {position:relative;z-index: 1;width:100%; display: block;}
 
 
 rs-fw-forcer { display:block;width:100%;pointer-events: none;}
-rs-module { position:relative;overflow:hidden;display: block;}
+rs-module { position:relative;overflow:hidden;display: block; }
 
 /*rs-carousel-wrap,*/
 rs-pzimg-wrap,
@@ -1401,3 +1401,13 @@ rs-loader.spinner6{width:40px;height:40px;-webkit-transform:translate(-50%,-50%)
 .rev_slider_1_1_height{height: 705px;}
 .rev_slider_2_1_height{height: 725px;}
 .rev_slider_3_1_height{height: 850px;}
+
+rs-module,
+rs-fullwidth-wrap
+{
+	height: 500px!important;
+}
+
+/* rs-layer-wrap{
+	top: 100px !important;
+} */
