@@ -24,8 +24,6 @@
 
     <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
 
-
-
     <!-- fontawesome -->
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.css" />
 
@@ -51,6 +49,11 @@
 
     <!-- responsive -->
     <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+
+
+   <!-- slippry slider -->
+    <link rel="stylesheet" href="/dist/demo.css">
+    <link rel="stylesheet" href="/dist/slippry.css">
 
     <!-- JQuery for D.O.B -->
     <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
@@ -118,12 +121,64 @@
     <script src="/js/numinate.min.js?ver=4.9.3"></script>
     <script src="/js/main.js"></script>
 
+
+    <!-- Slippry Slider -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="/dist/slippry.min.js"></script>
+		<script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
+
     <!-- Revolution Slider -->
     <script src="/revolution/js/revolution.tools.min.js"></script>
     <script src="/revolution/js/rs6.min.js"></script>
     <script src="/revolution/js/slider.js"></script>
 
     <!-- Javascript end-->
+
+
+
+		<script>
+			$(function() {
+				var demo1 = $("#demo1").slippry({
+					// transition: 'fade',
+					// useCSS: true,
+					// speed: 1000,
+					// pause: 3000,
+					// auto: true,
+					// preload: 'visible',
+					// autoHover: false
+				});
+
+				$('.stop').click(function () {
+					demo1.stopAuto();
+				});
+
+				$('.start').click(function () {
+					demo1.startAuto();
+				});
+
+				$('.prev').click(function () {
+					demo1.goToPrevSlide();
+					return false;
+				});
+				$('.next').click(function () {
+					demo1.goToNextSlide();
+					return false;
+				});
+				$('.reset').click(function () {
+					demo1.destroySlider();
+					return false;
+				});
+				$('.reload').click(function () {
+					demo1.reloadSlider();
+					return false;
+				});
+				$('.init').click(function () {
+					demo1 = $("#demo1").slippry();
+					return false;
+				});
+			});
+		</script>
+  
 
 
     <!-- JQuery for D.O.B -->
