@@ -6,7 +6,7 @@ body {
 }
 .demo_wrapper {
 	width: 50%;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 @media only screen and (max-device-width: 800px), screen and (max-width: 800px) {
   .demo_wrapper {
