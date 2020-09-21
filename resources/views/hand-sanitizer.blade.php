@@ -1,9 +1,5 @@
 @extends('layouts.frontend')
 
-@section('title')
-    {{ config('app.name') }} | Essential Oil
-@endsection
-
 @section('breadcrumb')
     @includeIf('layouts.breadcrumb' , [ 'title' => 'Hand Sanitizer' , 'subtitle' => 'Hand Sanitizer'])
 @endsection

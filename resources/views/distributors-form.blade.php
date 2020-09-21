@@ -1,9 +1,5 @@
 @extends('layouts.frontend')
 
-@section('title')
-    {{ config('app.name') }} | Distributors Form
-@endsection
-
 @section('breadcrumb')
     @includeIf('layouts.breadcrumb' , [ 'title' => 'Distributors' , 'subtitle' => 'Distributors Form'])
 @endsection
