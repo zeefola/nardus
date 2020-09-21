@@ -42,8 +42,9 @@
                             <!-- toggle -->
                             <div class="toggle">
                                 <div class="toggle-title" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" itemprop="name">
-                                        {{ $data->question }} </a>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                        <span itemprop="name"> {{ $data->question }} </span> 
+                                    </a>
                                 </div>
                                 <div class="toggle-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <div class="row">
