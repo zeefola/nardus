@@ -10,7 +10,7 @@
 
 @section('main_content')
     <!-- services-section -->
-    <section class="ttm-row faqpage-section clearfix">
+    <section class="ttm-row faqpage-section clearfix" itemscope itemtype="https://schema.org/FAQPage">
         <div class="container">
             <div class="row">
                 <!-- row -->
@@ -35,20 +35,20 @@
                         <img class="img-fluid" src="/images/question.jpg" title="single-img-eight" alt="single-img-eight">
                     </div><!-- ttm_single_image-wrapper end -->
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" >
                     <!-- acadion -->
                     @foreach ($datas as $data)
                         <div class="accordion grey-background res-991-mt-30">
                             <!-- toggle -->
                             <div class="toggle">
-                                <div class="toggle-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                <div class="toggle-title" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" itemprop="name">
                                         {{ $data->question }} </a>
                                 </div>
-                                <div class="toggle-content">
+                                <div class="toggle-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <p class="mb-0"> {{ $data->answer }} </p>
+                                            <p class="mb-0"  itemprop="text"> {{ $data->answer }} </p>
                                         </div>
                                     </div>
                                 </div>
