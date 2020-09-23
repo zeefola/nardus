@@ -11,21 +11,21 @@ return [
         'defaults'       => [
             'title'        => config('app.name'), // set false to total remove
             'titleBefore'  => false, // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
-            'description'  => 'For those who helped create the Genki Dama', // set false to total remove
+            'description'  => 'Pure Aroma From Nature', // set false to total remove
             'separator'    => ' - ',
-            'keywords'     => [],
-            'canonical'    => false, // Set null for using Url::current(), set false to total remove
-            'robots'       => false, // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
+            'keywords'     => ['best essential oils brand in Lagos Nigeria, affordable lemongrass essential oil in Lagos Nigeria, best essential oil diffuser in Lagos Nigeria, essential oils for headache, affordable essential oils in Nigeria, benefits of essentail oils, benefits of essential oil diffuser, affordable essential oils for aromatherapy, aromatherapy essential oil diffuser, natural hand sanitizer, affordable lemongrass hydrosol, affordable lemongrass liquid soap'],
+            'canonical'    => null, // Set null for using Url::current(), set false to total remove
+            'robots'       => 'index,follow', // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
         ],
         /*
          * Webmaster tags are always added.
          */
         'webmaster_tags' => [
             'google'    => null,
-            'bing'      => null,
+            'bing'      => 'C9E40CE04FC37ADEA608C2742EBD138C',
             'alexa'     => null,
             'pinterest' => null,
-            'yandex'    => null,
+            'yandex'    => '8dbcb0f4ac580acd',
             'norton'    => null,
         ],
 
@@ -36,12 +36,12 @@ return [
          * The default configurations to be used by the opengraph generator.
          */
         'defaults' => [
-            'title'       => 'Over 9000 Thousand!', // set false to total remove
-            'description' => 'For those who helped create the Genki Dama', // set false to total remove
-            'url'         => false, // Set null for using Url::current(), set false to total remove
+            'title'       => config('app.name'), // set false to total remove
+            'description' => 'Pure Aroma From Nature', // set false to total remove
+            'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => false,
             'site_name'   => false,
-            'images'      => [],
+            'images'      => [config('app.url').'/images/nardus.png'],
         ],
     ],
     'twitter' => [
@@ -49,7 +49,7 @@ return [
          * The default values to be used by the twitter cards generator.
          */
         'defaults' => [
-            //'card'        => 'summary',
+            'card'        => 'summary',
             //'site'        => '@LuizVinicius73',
         ],
     ],
@@ -58,11 +58,11 @@ return [
          * The default configurations to be used by the json-ld generator.
          */
         'defaults' => [
-            'title'       => 'Over 9000 Thousand!', // set false to total remove
-            'description' => 'For those who helped create the Genki Dama', // set false to total remove
+            'title'       => config('app.name'), // set false to total remove
+            'description' => 'Pure Aroma From Nature', // set false to total remove
             'url'         => false, // Set null for using Url::current(), set false to total remove
             'type'        => 'WebPage',
-            'images'      => [],
+            'images'      => [config('app.url').'/images/nardus.png'],
         ],
     ],
 ];
