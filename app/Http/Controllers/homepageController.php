@@ -6,10 +6,15 @@ use App\distributors_registration;
 use Mail;
 
 use Illuminate\Http\Request;
+use Artesaos\SEOTools\Facades\SEOTools;
+
 
 class homepageController extends Controller
 {
     public function home(){
+        SEOTools::setTitle('Frequently Asked Questions');
+        SEOTools::setDescription('This is my page description');
+        
         return view('welcome');
     }
     
@@ -75,6 +80,14 @@ class homepageController extends Controller
     }
 
     public function faq(){
+
+        SEOTools::setTitle('Frequently Asked Questions');
+        SEOTools::setDescription('This is my page description');
+        // SEOTools::opengraph()->setUrl('http://current.url.com');
+        // SEOTools::setCanonical('https://codecasts.com.br/lesson');
+        // SEOTools::opengraph()->addProperty('type', 'articles');
+        // SEOTools::twitter()->setSite('@LuizVinicius73');
+        // SEOTools::jsonLd()->addImage('https://codecasts.com.br/img/logo.jpg');
         
         $datas = \App\Repositories\Pick::getFaq();
         return view ('faq')->with('datas' , $datas);

@@ -1,9 +1,5 @@
 @extends('layouts.frontend')
 
-@section('title')
-    {{ config('app.name') }} | Services
-@endsection
-
 @section('breadcrumb')
     @includeIf('layouts.breadcrumb' , [ 'title' => 'Services' , 'subtitle' => 'Services'])
 @endsection
