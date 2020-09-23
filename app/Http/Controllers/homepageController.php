@@ -12,6 +12,9 @@ use Artesaos\SEOTools\Facades\SEOTools;
 class homepageController extends Controller
 {
     public function home(){
+        SEOTools::setTitle('Frequently Asked Questions');
+        SEOTools::setDescription('This is my page description');
+        
         return view('welcome');
     }
     
