@@ -12,8 +12,8 @@
                             <meta itemprop="position" content="1" />
                         </span>
                         <span class="ttm-bread-sep ttm-textcolor-white">&nbsp; → &nbsp;</span>
-                        <span class="ttm-textcolor-skincolor" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                           <a itemprop="item" href="{{ request()->fullUrl }}"> <span itemprop="name"> {{ $subtitle }}  /</span> </a>
+                        <span itemprop="itemListElement" class="ttm-textcolor-skincolor"  itemscope itemtype="http://schema.org/ListItem">
+                           <a itemprop="item" href="{{ request()->fullUrl }}"> <span itemprop="name"> {{ $subtitle }}  </span> </a>
                             <meta itemprop="position" content="2" />
                         </span>
                         
