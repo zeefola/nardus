@@ -78,6 +78,7 @@
 
    @includeIf('layouts.fb_pixel')
    
+   @includeIf('layouts.schema.organization')
 </head>
 
 <body>
