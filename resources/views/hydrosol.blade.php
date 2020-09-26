@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
 @section('breadcrumb')
-    @includeIf('layouts.breadcrumb' , [ 'title' => 'Essential Oils' , 'subtitle' => 'Essential Oils'])
+    @includeIf('layouts.breadcrumb' , [ 'title' => 'Hydrosol' , 'subtitle' => 'Hydrosol'])
 @endsection
 
 @section('main_content')
