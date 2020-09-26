@@ -11,6 +11,7 @@
                             <a itemprop="item" title="Homepage" href="/"><i class="ti ti-home"></i>&nbsp;&nbsp; <span itemprop="name"> Home </span> </a>
                             <meta itemprop="position" content="1" />
                         </span>
+                        ›
                         <span class="ttm-bread-sep ttm-textcolor-white">&nbsp; → &nbsp;</span>
                         <span itemprop="itemListElement" class="ttm-textcolor-skincolor"  itemscope itemtype="http://schema.org/ListItem">
                            <a itemprop="item" href="{{ request()->fullUrl() }}"> <span itemprop="name"> {{ $subtitle }}  </span> </a>
