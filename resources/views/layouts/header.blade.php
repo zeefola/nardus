@@ -116,16 +116,18 @@
                                 </label>
                             </div>
                             <nav id="menu" class="menu">
-                                <ul class="dropdown">
-                                    <li class="active"><a href="/">Home</a>
+                                <ul class="dropdown" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                                    <li class="active" itemprop="name"><a itemprop="url" href="/">Home</a>
                                     </li>
-                                    <li><a href="/about-us">About Us</a>
+                                    <li itemprop="name"><a itemprop="url" href="/about-us">About Us</a>
                                     </li>
-                                    <li><a href="/services">Services</a>
+                                    <li itemprop="name"><a itemprop="url" href="/services">Services</a>
                                     </li>
-                                    <li><a href="/faq">FAQ</a>
+                                    <li itemprop="name"><a itemprop="url" href="/faq">FAQ</a>
                                     </li>
-                                    <li><a href="/contact-us">Contact Us</a>
+                                    <li itemprop="name"><a itemprop="url" href="/contact-us">Contact Us</a>
+                                    </li>
+                                    <li itemprop="name" style="visibility: hidden"><a itemprop="url" href="/distributors-form">Distributor</a>
                                     </li>
                                     <li><a href="#">Shop</a>
                                     </li>
