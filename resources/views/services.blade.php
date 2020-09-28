@@ -15,8 +15,8 @@
                     <div class="ml-40">
                         <!-- ttm_single_image-wrapper -->
                         <div class="ttm_single_image-wrapper">
-                            <img class="img-fluid" src="/images/service.jpg" title="single-img-seven"
-                                alt="single-img-seven">
+                            <img class="img-fluid" src="/images/service.jpg" title="nardus essential oils"
+                                alt="essential oils">
                         </div><!-- ttm_single_image-wrapper end -->
                         <!--ttm-fid-->
                         <div class="ttm-fid inside without-icon ttm-highlight-fid-style-2">
@@ -157,7 +157,7 @@
                         <div class="featured-imagebox featured-imagebox-services mb-30">
                             <div class="featured-thumbnail">
                                 <!-- featured-thumbnail -->
-                                <img class="img-fluid" src=" {{ $data->featured_thumbnail }} " alt="image">
+                                <img class="img-fluid" src=" {{ $data->featured_thumbnail }} " alt="{{ $data->img_alt }}" title="{{ $data->img_title }}">
                             </div>
                             <div class="featured-content box-shadow">
                                 <div

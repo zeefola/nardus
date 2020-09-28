@@ -42,7 +42,7 @@
                                 <!-- site-branding -->
                                 <div class="site-branding mr-auto">
                                     <a class="home-link" href="/" title="Nardus" rel="home">
-                                        <img src="images/logo.jpg" id="logo-img" class="img-center" alt="logo">
+                                        <img src="images/logo.jpg" id="logo-img" class="img-center" alt="nardus logo" title="nardus company ltd logo">
                                     </a>
                                 </div><!-- site-branding end -->
                                 <!-- widget-info -->

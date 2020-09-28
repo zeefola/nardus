@@ -28,7 +28,7 @@
                 <div class="col-lg-6">
                     <!-- ttm_single_image-wrapper -->
                     <div class="ttm_single_image-wrapper">
-                        <img class="img-fluid" src="/images/question.jpg" title="single-img-eight" alt="single-img-eight">
+                        <img class="img-fluid" src="/images/question.jpg" title="nardus frequently asked questions" alt="frequently asked questions">
                     </div><!-- ttm_single_image-wrapper end -->
                 </div>
                 <div class="col-lg-6" >

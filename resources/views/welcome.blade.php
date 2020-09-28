@@ -14,7 +14,7 @@
                 <div class="col-lg-5">
                     <!-- ttm_single_image-wrapper -->
                     <div class="ttm_single_image-wrapper mr_95 res-991-mr-0 position-relative z-1 res-991-center">
-                        <img class="img-fluid" src="/images/essential_oil.png" title="single-img-one" alt="single-img-one">
+                        <img class="img-fluid" src="/images/essential_oil.png" title="nardus lemongrass essential oil" alt="lemongrass essential oil">
                     </div><!-- ttm_single_image-wrapper end -->
                 </div>
                 <div class="col-lg-7">
@@ -417,7 +417,7 @@
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
                         <div class="featured-thumbnail">
                             <!-- featured-thumbnail-->
-                            <img class="img-fluid" src="/images/handwash.jpg" alt="image">
+                            <img class="img-fluid" src="/images/handwash.jpg" alt="handwash" title="nardus lemongrass handwash">
                         </div><!-- featured-thumbnail END-->
                         <div class="ttm-box-view-overlay">
                             <!-- ttm-box-view-overlay -->
@@ -448,7 +448,7 @@
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
                         <div class="featured-thumbnail">
                             <!-- featured-thumbnail-->
-                            <img class="img-fluid" src="/images/diffusser.png" alt="image">
+                            <img class="img-fluid" src="/images/diffusser.png" alt="diffuser" title="nardus lemongrass diffuser">
                         </div><!-- featured-thumbnail END-->
                         <div class="ttm-box-view-overlay">
                             <!-- ttm-box-view-overlay -->
@@ -479,7 +479,7 @@
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
                         <div class="featured-thumbnail">
                             <!-- featured-thumbnail-->
-                            <img class="img-fluid" src="/images/essential.png" alt="image">
+                            <img class="img-fluid" src="/images/essential.png" alt="lemongrass essential oil" title="nardus lemongrass essential oil">
                         </div><!-- featured-thumbnail END-->
                         <div class="ttm-box-view-overlay">
                             <!-- ttm-box-view-overlay -->
@@ -510,7 +510,7 @@
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
                         <div class="featured-thumbnail">
                             <!-- featured-thumbnail-->
-                            <img class="img-fluid" src="/images/hydrosol.jpg" alt="image">
+                            <img class="img-fluid" src="/images/hydrosol.jpg" alt="hydrosol" title="nardus lemongrass hydrosol">
                         </div><!-- featured-thumbnail END-->
                         <div class="ttm-box-view-overlay">
                             <!-- ttm-box-view-overlay -->
@@ -541,7 +541,7 @@
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
                         <div class="featured-thumbnail">
                             <!-- featured-thumbnail-->
-                            <img class="img-fluid" src="/images/liquid-soap.jpg" alt="image">
+                            <img class="img-fluid" src="/images/liquid-soap.jpg" alt="liquid soap" title="nardus lemongrass liquid soap">
                         </div><!-- featured-thumbnail END-->
                         <div class="ttm-box-view-overlay">
                             <!-- ttm-box-view-overlay -->
@@ -572,7 +572,7 @@
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
                         <div class="featured-thumbnail">
                             <!-- featured-thumbnail-->
-                            <img class="img-fluid" src="/images/sanitizer.png" alt="image">
+                            <img class="img-fluid" src="/images/sanitizer.png" alt="hand sanitizer" title="nardus lemongrass hand sanitizer">
                         </div><!-- featured-thumbnail END-->
                         <div class="ttm-box-view-overlay">
                             <!-- ttm-box-view-overlay -->
