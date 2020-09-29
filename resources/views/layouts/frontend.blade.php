@@ -93,19 +93,19 @@
         <!--header start-->
         @section('site_navigation')
         <ul class="dropdown" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-          <li class="active" itemprop="name"><a itemprop="url" href="/">Home</a>
+          <li class="{{ Request::is('/') ? 'active' : '' }}" itemprop="name"><a itemprop="url" href="/">Home</a>
           </li>
-          <li itemprop="name"><a itemprop="url" href="/about-us">About Us</a>
+          <li class="{{ Request::is('about-us') ? 'active' : '' }}" itemprop="name"><a itemprop="url" href="/about-us">About Us</a>
           </li>
-          <li itemprop="name"><a itemprop="url" href="/services">Services</a>
+          <li class="{{ Request::is('services') ? 'active' : '' }}" itemprop="name"><a itemprop="url" href="/services">Services</a>
           </li>
-          <li itemprop="name"><a itemprop="url" href="/faq">FAQ</a>
+          <li class="{{ Request::is('faq') ? 'active' : '' }}" itemprop="name"><a itemprop="url" href="/faq">FAQ</a>
           </li>
-          <li itemprop="name"><a itemprop="url" href="/contact-us">Contact Us</a>
+          <li class="{{ Request::is('contact-us') ? 'active' : '' }}" itemprop="name"><a itemprop="url" href="/contact-us">Contact Us</a>
           </li>
           <li><a href="#">Shop</a>
           </li>
-          <li itemprop="name" style="visibility: hidden"><a itemprop="url" href="/distributors-form">Distributor</a>
+          <li itemprop="name" style="display:none"><a itemprop="url" href="/distributors-form">Distributor</a>
           </li>
           
       </ul>

@@ -14,7 +14,7 @@
                     <!-- section title -->
                     <div class="section-title text-center clearfix">
                         <div class="title-header mb-50">
-                            <h5>WHAT WE OFFER</h5>
+                            <h5>Related questions</h5>
                             <h2 class="title">Do you have any Questions?</h2>
                         </div>
                         <div class="heading-seperator">

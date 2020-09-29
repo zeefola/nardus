@@ -13,14 +13,14 @@ class homepageController extends Controller
 {
     public function home(){
         SEOTools::setTitle('Pure Aroma from Nature');
-        SEOTools::setDescription('Experience the sheer potency of a natural essential oil derived through the most ethical extraction and purification process.');
+        SEOTools::setDescription('Experience the sheer potency of a natural essential oil derived through the most ethical extraction and purification process. We offer an extensive line of essential oils and lemongrass-based domestic products.');
         
         return view('welcome');
     }
     
     public function contactUs(){
         SEOTools::setTitle('Contact Us');
-        SEOTools::setDescription('Leave us a message, we would love to hear from you! Email us at info@nardus.ng');
+        SEOTools::setDescription('For enquiries, complaints and more details about our products and services, you can get in touch with us via our contact center by sending us a mail or through a phone call.');
         return view('contact-us');
     }
 
@@ -73,13 +73,13 @@ class homepageController extends Controller
 
     public function aboutUs(){
         SEOTools::setTitle('About Us');
-        SEOTools::setDescription('We are a global supplier of essential oils and lemongrass-based domestic products at affordable prices.');
+        SEOTools::setDescription('We are a global supplier of essential oils into the flavour, fragrance and cosmetic industries. We offer customers an extensive line of essential oils and lemongrass-based domestic products.');
         return view('about-us');
     }
 
     public function services(){
         SEOTools::setTitle('Services');
-        SEOTools::setDescription('We produce and supply essential oils and lemongrass-based domestic products like hand wash , hydrosol , hand sanitizer at affordable prices.');
+        SEOTools::setDescription('We are into production and supply of natural essential oils and lemongrass-based domestic products, formulation of flavours and customisation of fragrance with focus on promoting a healthier world.');
 
         $datas = \App\Repositories\Services::getServices();
         return view('services')->with('datas' , $datas);
@@ -88,7 +88,7 @@ class homepageController extends Controller
     public function faq(){
 
         SEOTools::setTitle('Frequently Asked Questions');
-        SEOTools::setDescription('Learn more about our products and services here.');
+        SEOTools::setDescription('We have put together some of our frequently asked questions for you, get related answers to some of your questions from our most frequently asked questions here.');
         // SEOTools::opengraph()->setUrl('http://current.url.com');
         // SEOTools::setCanonical('https://codecasts.com.br/lesson');
         // SEOTools::opengraph()->addProperty('type', 'articles');
@@ -101,7 +101,7 @@ class homepageController extends Controller
 
     public function distributorsForm(){
         SEOTools::setTitle('Distributors Form');
-        SEOTools::setDescription('You are a step away from enjoying amazing offers! Fill and submit your data, our customer representative will contact you soon.');
+        SEOTools::setDescription('You are just a step away from enjoying amazing offers from us! Kindly fill in your details below and ensure you submit your data, our customer representative will contact you soon.');
         return view('distributors-form');
     }
 
@@ -178,7 +178,7 @@ class homepageController extends Controller
 
     public function handSanitizer(){
         SEOTools::setTitle('Lemongrass Hand Sanitizer');
-        SEOTools::setDescription('Made with lemongrass essential oil blended with other organic powerful disinfecting agents, helps prevent the risk of infection.');
+        SEOTools::setDescription('An alcohol-based gelatinous solution made with lemongrass essential oil blended with other organic powerful disinfecting agents. It helps prevent the risk of infection while improving the cosmetic effect of your skin.');
 
         return view('hand-sanitizer');
     }
