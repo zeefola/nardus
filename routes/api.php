@@ -24,5 +24,18 @@ Route::group(['prefix' => 'v1'] ,function ($router){
    Route::any('/faq_create' , 'FaqController@create');
    Route::any('/faq_update' , 'FaqController@update');
    Route::any('/faq_delete' , 'FaqController@delete');
+   Route::any('/faq_download' , 'FaqController@exportable');
+
+
+   Route::any('/contact_fetch' , 'ContactController@fetch');
+   Route::any('/contact_update' , 'ContactController@update');
+   Route::any('/contact_delete' , 'ContactController@delete');
+   Route::any('/contact_download' , 'ContactController@exportable');
+
+   Route::any('/distributor_fetch' , 'DistributorController@fetch');
+   Route::any('/distributor_update' , 'DistributorController@update');
+   Route::any('/distributor_delete' , 'DistributorController@delete');
+   Route::any('/distributor_download' , 'DistributorController@exportable');
+   
 
 });

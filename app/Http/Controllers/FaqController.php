@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Faq;
+use App\Exports\FaqExport;
+use Maatwebsite\Excel\Facades\Excel;
+
 
 class FaqController extends Controller
 {
@@ -50,9 +53,40 @@ class FaqController extends Controller
 
     public function update(){
 
+        /** Store the request coming in as a variable */
+        $id = request()->id;
+        $question = request()->question;
+        $answer = request()->answer;
+
+        /** Find id and store data */
+
+        $data = Faq::find($id);
+
+        $data->question = $question;
+        $data->answer = $answer;
+
+        $data->save();
+
+        /** Return a json response object */
+        return response()->json(['message' => 'Data Updated Succesfully']);
+
     }
 
     public function delete(){
 
+        /** Request coming in */
+        $id = request()->id;
+
+        /** Find and delete the data */
+        Faq::find($id)->delete();
+
+        /** Return a json response object */
+        return response()->json(['message' => 'Delete Successfully']);
+
+    }
+
+    public function exportable(){
+
+     return Excel::download(new FaqExport, 'faq.xlsx');
     }
 }

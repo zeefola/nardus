@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\contact_history;
-use App\distributors_registration;
+use App\Contact;
+use App\Distributor;
+use App\Faq;
 use Mail;
 
 use Illuminate\Http\Request;
@@ -39,7 +40,7 @@ class homepageController extends Controller
 
 
         /* submit the input into the database */
-        $db_data = new contact_history();
+        $db_data = new Contact();
         $db_data->fullname = request()->fullname;
         $db_data->email = request()->email;
         $db_data->phone = request()->phone;
@@ -95,7 +96,7 @@ class homepageController extends Controller
         // SEOTools::twitter()->setSite('@LuizVinicius73');
         // SEOTools::jsonLd()->addImage('https://codecasts.com.br/img/logo.jpg');
         
-        $datas = \App\Repositories\Pick::getFaq();
+        $datas = Faq::all();
         return view ('faq')->with('datas' , $datas);
     }
 
@@ -123,7 +124,7 @@ class homepageController extends Controller
         // return request();
 
         /* store the input into database */
-        $db_data = new distributors_registration();
+        $db_data = new Distributor();
         $db_data->surname = request()->surname;
         $db_data->othername = request()->othername;
         $db_data->phone = request()->phone;

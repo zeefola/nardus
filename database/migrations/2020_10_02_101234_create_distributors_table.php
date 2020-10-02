@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateDistributorsRegistrationsTable extends Migration
+class CreateDistributorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateDistributorsRegistrationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('distributors_registrations', function (Blueprint $table) {
+        Schema::create('distributors', function (Blueprint $table) {
             $table->id();
             $table->string('surname')->nullable();
             $table->string('othername')->nullable();
@@ -26,6 +26,8 @@ class CreateDistributorsRegistrationsTable extends Migration
             $table->string('home_address')->nullable();
 
             $table->timestamps();
+            $table->softDeletes();
+            
         });
     }
 
@@ -36,6 +38,10 @@ class CreateDistributorsRegistrationsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('distributors_registrations');
+        Schema::dropIfExists('distributors');
+
+        Schema::table('distributors', function (Blueprint $table) {
+            $table->dropSoftDeletes();
+        });
     }
 }

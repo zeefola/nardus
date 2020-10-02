@@ -45,8 +45,8 @@
                             </div>
                             <div class="col-sm-6 col-md-6">
                                 <div class="form-group">
-                                    <input name="dob" type="text" placeholder="Date of Birth*"
-                                        class="form-control with-border bg-white" id="datepicker">
+                                    <input name="dob" type="text" placeholder="Date of Birth*" onfocus="(this.type='date')"
+                                        class="form-control with-border bg-white">
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6">

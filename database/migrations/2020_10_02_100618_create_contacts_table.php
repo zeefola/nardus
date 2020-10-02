@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateContactHistoriesTable extends Migration
+class CreateContactsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateContactHistoriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('contact_histories', function (Blueprint $table) {
+        Schema::create('contacts', function (Blueprint $table) {
             $table->id();
             $table ->string('fullname')->nullable();
             $table->string('phone')->nullable();
@@ -22,6 +22,7 @@ class CreateContactHistoriesTable extends Migration
             $table->string('subject')->nullable();
             $table->text('message')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
@@ -32,6 +33,10 @@ class CreateContactHistoriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('contact_histories');
+        Schema::dropIfExists('contacts');
+
+        Schema::table('contacts', function (Blueprint $table) {
+            $table->dropSoftDeletes();
+        });
     }
 }

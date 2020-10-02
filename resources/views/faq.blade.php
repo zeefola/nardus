@@ -37,7 +37,7 @@
                         <div class="accordion grey-background res-991-mt-30">
                             <!-- toggle -->
                             <div class="toggle" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                <div class="toggle-title" >
+                                <div class="toggle-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                                         <span itemprop="name"> {{ $data->question }} </span> 
                                     </a>
@@ -45,11 +45,12 @@
                                 <div class="toggle-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <p class="mb-0" > <span itemprop="text"> {{ $data->answer }} </span> </p>
+                                            <p class="mb-0"> <span itemprop="text"> {{ $data->answer }} </span> </p>
                                         </div>
                                     </div>
                                 </div>
-                            </div><!-- toggle end -->
+                            </div>
+                            <!-- toggle end -->
                         </div><!-- acadion  end-->
                     @endforeach
                 </div>
