@@ -35,9 +35,9 @@
     <link rel="stylesheet" type="text/css" href="/css/animate.css" />
 
     <!-- slick-slider -->
-    <link rel="stylesheet" type="text/css" href="/css/slick.css">
+    {{-- <link rel="stylesheet" type="text/css" href="/css/slick.css">
 
-    <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="/css/slick-theme.css"> --}}
 
     <!-- fontawesome -->
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.css" />
@@ -179,9 +179,9 @@
 		<script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
 
     <!-- Revolution Slider -->
-    <script src="/revolution/js/revolution.tools.min.js"></script>
+    {{-- <script src="/revolution/js/revolution.tools.min.js"></script>
     <script src="/revolution/js/rs6.min.js"></script>
-    <script src="/revolution/js/slider.js"></script>
+    <script src="/revolution/js/slider.js"></script> --}}
 
     <!-- Javascript end-->
 
