@@ -67,7 +67,7 @@
 
 
    <!-- slippry slider -->
-    <link rel="stylesheet" href="/dist/demo.css">
+    
     <link rel="stylesheet" href="/dist/slippry.css">
 
     <!-- JQuery for D.O.B -->
@@ -79,6 +79,21 @@
    @includeIf('layouts.fb_pixel')
    
    @includeIf('layouts.schema.organization')
+
+   <style>
+        .demo_wrapper {
+          /* width: 50%; */
+          margin: 0 auto;
+        }
+        @media only screen and (max-device-width: 800px), screen and (max-width: 800px) {
+          .demo_wrapper {
+            width: 80%;
+          }  
+        }
+        .demo_block {
+          width: 100%;
+        }
+    </style>
 </head>
 
 <body>
