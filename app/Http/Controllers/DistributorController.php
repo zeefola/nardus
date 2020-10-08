@@ -11,7 +11,7 @@ class DistributorController extends Controller
 {
     public function fetch(){
 
-        $datas = Distributor::all();
+        $datas = Distributor::latest()->get();
 
         /**Return a json response object of $data */
         return response()->json(['message' => $datas]);

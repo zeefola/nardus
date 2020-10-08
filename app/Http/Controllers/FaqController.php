@@ -13,7 +13,7 @@ class FaqController extends Controller
     
     public function fetch(){
      /** Get all FAQ info and save in $datas */
-     $datas = Faq::all();
+     $datas = Faq::latest()->get();
 
      /** Create a collection variable */
      $results = collect();

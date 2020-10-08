@@ -12,7 +12,7 @@ class ContactController extends Controller
 {
     public function fetch(){
         
-        $datas = Contact::all();
+        $datas = Contact::latest()->get();
         /** Return $datas as a json response object*/
         return response()->json(['message' => $datas]);
 
