@@ -9,6 +9,10 @@ use App\Distributor;
 
 class DistributorController extends Controller
 {
+    public function __construct(){
+        $this->middleware('auth.apikey');
+    }
+    
     public function fetch(){
 
         $datas = Distributor::latest()->get();

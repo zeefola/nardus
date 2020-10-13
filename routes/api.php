@@ -20,22 +20,22 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::group(['prefix' => 'v1'] ,function ($router){
-   Route::any('/faq_fetch' , 'FaqController@fetch');
-   Route::any('/faq_create' , 'FaqController@create');
-   Route::any('/faq_update' , 'FaqController@update');
-   Route::any('/faq_delete' , 'FaqController@delete');
-   Route::any('/faq_export' , 'FaqController@exportable');
+   Route::post('/faq_fetch' , 'FaqController@fetch');
+   Route::post('/faq_create' , 'FaqController@create');
+   Route::post('/faq_update' , 'FaqController@update');
+   Route::post('/faq_delete' , 'FaqController@delete');
+   Route::post('/faq_export' , 'FaqController@exportable');
 
 
-   Route::any('/contact_fetch' , 'ContactController@fetch');
-   Route::any('/contact_update' , 'ContactController@update');
-   Route::any('/contact_delete' , 'ContactController@delete');
-   Route::any('/contact_export' , 'ContactController@exportable');
+   Route::post('/contact_fetch' , 'ContactController@fetch');
+   Route::post('/contact_update' , 'ContactController@update');
+   Route::post('/contact_delete' , 'ContactController@delete');
+   Route::post('/contact_export' , 'ContactController@exportable');
 
-   Route::any('/distributor_fetch' , 'DistributorController@fetch');
-   Route::any('/distributor_update' , 'DistributorController@update');
-   Route::any('/distributor_delete' , 'DistributorController@delete');
-   Route::any('/distributor_export' , 'DistributorController@exportable');
+   Route::post('/distributor_fetch' , 'DistributorController@fetch');
+   Route::post('/distributor_update' , 'DistributorController@update');
+   Route::post('/distributor_delete' , 'DistributorController@delete');
+   Route::post('/distributor_export' , 'DistributorController@exportable');
    
 
 });
