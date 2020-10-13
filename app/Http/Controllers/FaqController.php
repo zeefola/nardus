@@ -10,6 +10,9 @@ use Maatwebsite\Excel\Facades\Excel;
 
 class FaqController extends Controller
 {
+    public function __construct(){
+        $this->middleware('auth.apikey');
+    }
     
     public function fetch(){
      /** Get all FAQ info and save in $datas */
