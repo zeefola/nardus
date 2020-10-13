@@ -189,6 +189,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
+        Ejarnutowski\LaravelApiKey\Providers\ApiKeyServiceProvider::class,
 
     ],
 
