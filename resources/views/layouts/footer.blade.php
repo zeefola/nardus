@@ -9,7 +9,7 @@
                                 <h5 class="custom-heading"><a href="#"> <span
                                             class="ti ti-arrow-circle-left ttm-arrow-box"></span> Find Our Nearest
                                         Shop</a></h5>
-                                <i class="fa fa-shopping-cart ttm-textcolor-skincolor"></i>
+                                <i class="flaticon flaticon-house ttm-textcolor-skincolor"></i>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                     <div class="cta_wrapper">
                         <div class="ttm-quicklink-box">
                             <div class="ttm-rightlink-box">
-                                <i class="fa fa-phone ttm-textcolor-skincolor"></i>
+                                <i class="flaticon flaticon-support ttm-textcolor-skincolor"></i>
                                 <h5 class="custom-heading"><a href="#"> Help Center <span
                                             class="ti ti-arrow-circle-right ttm-arrow-box"></span></a></h5>
                             </div>

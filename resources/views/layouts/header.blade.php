@@ -47,7 +47,7 @@
                                 </div><!-- site-branding end -->
                                 <!-- widget-info -->
                                 <div class="widget_info d-flex flex-row align-items-center justify-content-end">
-                                    <div class="widget_icon"><i class="fa fa-phone"></i></div>
+                                    <div class="widget_icon"><i class="flaticon-call"></i></div>
                                     <div class="widget_content">
                                         <h5 class="widget_title">{{ config('app.phone_1') }}</h5>
                                         <p class="widget_desc">Make A Call</p>
@@ -55,7 +55,7 @@
                                 </div><!-- widget-info end -->
                                 <!-- widget-info -->
                                 <div class="widget_info d-flex flex-row align-items-center justify-content-end">
-                                    <div class="widget_icon"><i class="fa fa-envelope"></i></div>
+                                    <div class="widget_icon"><i class="flaticon-email"></i></div>
                                     <div class="widget_content">
                                         <h5 class="widget_title">{{ config('app.email') }}</h5>
                                         <p class="widget_desc">Send Us a Mail</p>
@@ -63,7 +63,7 @@
                                 </div><!-- widget-info end -->
                                 <!-- widget-info -->
                                 <div class="widget_info d-flex flex-row align-items-center justify-content-end">
-                                    <div class="widget_icon"><i class="fa fa-address-card"></i></div>
+                                    <div class="widget_icon"><i class="flaticon-worldwide"></i></div>
                                     <div class="widget_content">
                                         <h5 class="widget_title">{{ config('app.location_1') }}</h5>
                                         <p class="widget_desc">{{ config('app.location_2') }}</p>
