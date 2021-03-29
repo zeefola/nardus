@@ -11,7 +11,7 @@
     {!! SEO::generate() !!}
 
     <!-- favicon icon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon57-57.png">
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon57-57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon60-60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon72-72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon76-76.png">
@@ -24,7 +24,7 @@
     <link rel="icon" type="image/png" href="/images/favicon32-32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon192-192.png" sizes="192x192">
     <link rel="icon" type="image/png" href="/images/favicon96-96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/images/favicon16-16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/favicon16-16.png" sizes="16x16"> -->
 
     <link rel="shortcut icon" href="/images/favicon.ico" />
 
@@ -118,7 +118,7 @@
           </li>
           <li class="{{ Request::is('contact-us') ? 'active' : '' }}" itemprop="name"><a itemprop="url" href="/contact-us">Contact Us</a>
           </li>
-          <li><a href="#">Shop</a>
+          <li><a href="https://shop.nardus.ng/shop/">Shop</a>
           </li>
           <li itemprop="name" style="display:none"><a itemprop="url" href="/distributors-form">Distributor</a>
           </li>
